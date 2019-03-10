@@ -23,7 +23,14 @@ const options = {
 ## Install
 
     $ npm install custom-passport-strategy
-    
+
+## Debug
+
+This library uses debug logger to help with debugging tasks. Just enable logs with:
+```
+export DEBUG='strategy-lib:*'
+```
+
 ## Development
 
     $ npm run format
