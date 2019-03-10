@@ -1,0 +1,43 @@
+{
+	"name": "custom-passport-strategy",
+	"version": "0.1.0",
+	"description": "Custom passport strategy",
+	"main": "index.js",
+	"directories": {
+		"lib": "lib"
+	},
+	"engines": {
+		"node": ">=8"
+	},
+	"scripts": {
+		"lint": "eslint lib",
+		"format": "prettier */*.js --write && git status",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ericzon/custom-passport-strategy.git"
+	},
+	"keywords": [
+		"passport",
+		"strategy"
+	],
+	"author": "Eric Lara <ericzon@gmail.com>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/ericzon/custom-passport-strategy/issues"
+	},
+	"homepage": "https://github.com/ericzon/custom-passport-strategy#readme",
+	"devDependencies": {
+		"eslint": "^5.15.1",
+		"eslint-config-airbnb-base": "^13.1.0",
+		"eslint-config-prettier": "^4.1.0",
+		"eslint-plugin-import": "^2.16.0",
+		"eslint-plugin-prettier": "^3.0.1",
+		"prettier": "^1.16.4"
+	},
+	"dependencies": {
+		"debug": "^4.1.1",
+		"passport-strategy": "^1.0.0"
+	}
+}
